@@ -1,0 +1,32 @@
+.headerNavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    height: 4rem;
+    border-bottom: 1px solid black;
+}
+
+.navBar{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divContainerNavs{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divContainerRedes{
+    display: flex;
+    align-items: center;
+}
+
+.divContainerRedes svg{
+    margin-left: 1rem;
+}
