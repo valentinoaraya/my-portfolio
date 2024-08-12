@@ -1,0 +1,40 @@
+.mainPageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainPage{
+    display: flex;
+    max-width: 1300px;
+    width: 100%;
+}
+
+.divInfoContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.principalTitle{
+    font-size: 3rem;
+}
+
+.secundaryTitle{
+    font-size: 2rem;
+    color: #E5383B;
+}
+
+.mainP{
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+
+.principalImg{
+    width: 470px;
+    border-radius: 40%;
+}

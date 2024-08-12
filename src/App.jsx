@@ -1,11 +1,12 @@
 import './App.css'
-import NavBar from './components/common/NavBar/NavBar.jsx'
+import Header from './components/common/Header/Header.jsx'
+import Home from "./components/Home/Home.jsx"
 
 function App() {
   return (
     <>
-      <NavBar/>
-
+      <Header/>
+      <Home/>
     </>
   )
 }
