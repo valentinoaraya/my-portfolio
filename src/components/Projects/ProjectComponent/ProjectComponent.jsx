@@ -1,0 +1,46 @@
+import React from 'react';
+import "./ProjectComponent.css"
+import Button from '../../common/Button/Button.jsx';
+
+const ProjectComponent = ({title, imagen, descripicon, web, github}) => {
+
+    if (!title && !title && !title && !title && !title){
+        return <div className='projectContainer'>
+            <div className='divWithPadding moreProjectsInprocess'>
+                <h1>Más proyectos en proceso...</h1>
+            </div>
+        </div>
+    }
+
+    return (
+        <div className='projectContainer'>
+            <div className='divWithPadding'>            
+                <div className='divImgProjectContainer'>
+                    <img src={imagen} alt="Imagen proyecto" className='imgProject'/>
+                </div>
+                <div className='dataProjectContainer'>
+                    <h2 className='titleProject'>{title}</h2>
+                    <p className='descriptionProject'>
+                        {descripicon}
+                    </p>
+                    <div className='divButtonsProject'>
+                        <Button>Detalles sobre el proyecto</Button>
+                        {
+                            web &&
+                            <a href={web} target='_blank' rel='noopener noreferreer'>
+                                <Button>Visitar web</Button>
+                            </a>
+                        }
+                        {
+                            github &&
+                            <Button github={true}/>
+                        }
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default ProjectComponent;

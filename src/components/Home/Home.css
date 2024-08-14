@@ -26,11 +26,11 @@
 
 .secundaryTitle{
     font-size: 2rem;
-    color: #E5383B;
+    color: var(--rojo-claro);
 }
 
 .mainP{
-    margin-top: .5rem;
+    margin: .5rem 0 1rem;
     font-size: 1.5rem;
 }
 

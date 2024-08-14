@@ -1,5 +1,5 @@
 .headerNavBar{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     display: flex;
@@ -8,7 +8,7 @@
     background-color: transparent;
     width: 100%;
     height: 4rem;
-    border-bottom: 1px solid #EDF2F4;
+    border-bottom: 1px solid var(--blanco);
 }
 
 .navBar{
@@ -26,6 +26,14 @@
     align-items: center;
 }
 
+.divContainerNavs p{
+    cursor: pointer;
+    &:hover{
+        color: var(--rojo-claro);
+        transition: .2s ease-in-out;
+    }
+}
+
 .divContainerRedes{
     display: flex;
     align-items: center;
@@ -33,6 +41,10 @@
 
 .divContainerRedes a{
     list-style: none;
-    color: black;
     margin: 0 0 0 1rem;
+}
+
+.divContainerRedes a svg:hover{
+    fill: var(--rojo-claro);
+    transition: .2s ease-in-out;
 }
