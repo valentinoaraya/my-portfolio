@@ -1,8 +1,9 @@
 import './App.css'
+import Section from "./components/utils/Section/Section.jsx"
 import Header from './components/common/Header/Header.jsx'
 import Home from "./components/Home/Home.jsx"
 import Projects from './components/Projects/Projects.jsx'
-import Section from "./components/utils/Section/Section.jsx"
+import AboutMe from './components/AboutMe/AboutMe.jsx'
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
         <Home/>
         <Section>
             <Projects/>
+        </Section>
+        <Section>
+            <AboutMe/>
         </Section>
     </div>
   )

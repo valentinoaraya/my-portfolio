@@ -1,15 +1,12 @@
 .projectContainer{
     width: 100%;
-    border: 2px solid var(--rojo-claro);
-    border-radius: 20px;
 }
 
 .divWithPadding{
-    height: 300.783px;
-    padding: 1rem;
+    height: 350px;
     display: flex;
     justify-content: start;
-    align-items: start;
+    align-items: center;
 }
 
 .divImgProjectContainer{
@@ -34,7 +31,6 @@
     h2{
         font-size: 1.8rem;
         color: var(--rojo-claro);
-        
     }
 
     p{

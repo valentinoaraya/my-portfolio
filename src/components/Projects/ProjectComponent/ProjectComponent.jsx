@@ -28,14 +28,13 @@ const ProjectComponent = ({title, imagen, descripicon, web, github}) => {
                         {
                             web &&
                             <a href={web} target='_blank' rel='noopener noreferreer'>
-                                <Button>Visitar web</Button>
+                                <Button className={"outLineButton"}>Visitar web</Button>
                             </a>
                         }
                         {
                             github &&
-                            <Button github={true}/>
+                            <Button className={"outLineButton"} github={true}/>
                         }
-                        
                     </div>
                 </div>
             </div>

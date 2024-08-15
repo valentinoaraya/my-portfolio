@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Button.css"
 
-const Button = ({children, download, github}) => {
+const Button = ({children, download, github, className}) => {
 
     const handleDownload = () => {
         const link = document.createElement("a")
@@ -11,7 +11,7 @@ const Button = ({children, download, github}) => {
     }
 
     return (
-        <button className={`botonOriginal ${github && "githubButton"}`} onClick={download && handleDownload}>
+        <button className={`botonOriginal ${className}`} onClick={download && handleDownload}>
             <p>
                 {
                     download &&

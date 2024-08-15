@@ -10,6 +10,7 @@ const Projects = () => {
                 <h1>Proyectos</h1>
                 <div className='divProjects'>
                     <ProjectComponent 
+                        github={true}
                         title={"SportyMaxx e-commerce"}
                         imagen={imgProject1}
                         descripicon={`Mi primer proyecto para un cliente. Aprendí mucho hacíendolo. 

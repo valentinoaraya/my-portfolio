@@ -23,13 +23,15 @@
     margin-right: 1rem;
 }
 
-.githubButton{
+.outLineButton{
     background-color: transparent;
     border: 2px solid var(--blanco);
-    padding: 1rem;
     &:hover{
         box-shadow: none;
         background-color: var(--blanco);
+        p {
+            color: var(--negro);
+        }
         .bi-github{
             fill: var(--negro);
         }
