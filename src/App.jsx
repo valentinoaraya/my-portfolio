@@ -11,12 +11,8 @@ function App() {
     <div>
         <Header/>
         <Home/>
-        <Section>
-            <Projects/>
-        </Section>
-        <Section>
-            <AboutMe/>
-        </Section>
+        <Projects/>
+        <AboutMe/>        
     </div>
   )
 }

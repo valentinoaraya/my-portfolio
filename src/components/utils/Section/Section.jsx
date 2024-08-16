@@ -16,7 +16,7 @@ const Section = ({children}) => {
                 }
             },
             {
-                threshold: 0.3,
+                threshold: 1,
             }
         )
 
