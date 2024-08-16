@@ -1,0 +1,35 @@
+.contactMeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divContactMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+    max-width: 1300px;
+    width: 100%;
+    h1{
+        font-size: 2rem;
+    }
+}
+
+.contacts{
+    margin: 3rem 0;
+    div{
+        margin: 1rem 0;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+    }
+    svg{
+        margin-right: 1rem;
+        fill: var(--rojo-claro);
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}

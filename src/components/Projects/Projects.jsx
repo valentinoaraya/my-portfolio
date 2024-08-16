@@ -14,7 +14,7 @@ const Projects = () => {
                 <div className='divProjects'>
                     <Section>
                         <ProjectComponent 
-                            github={true}
+                            github={false}
                             title={"SportyMaxx e-commerce"}
                             imagen={imgProject1}
                             descripicon={`Mi primer proyecto para un cliente. Aprendí mucho hacíendolo. 
