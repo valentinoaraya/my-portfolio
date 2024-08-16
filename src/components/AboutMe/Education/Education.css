@@ -1,0 +1,44 @@
+.timeLine{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.timeLineItem{
+    display: flex;
+    align-items: start;
+    margin-bottom: 2rem;
+    .year{
+        flex-shrink: 0;
+        width: 46px;
+        color: var(--rojo-claro);
+    }
+
+    .title{
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+
+    p{
+        margin-bottom: 1rem;
+    }
+}
+
+.timeLinePoint{
+    flex-shrink: 0;
+    margin: 0 1rem;
+    width: 16px;
+    height: 16px;
+    background-color: var(--rojo-claro);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 3px var(--rojo-claro);
+}
+
+.timeLineLine{
+    position: absolute;
+    left: 69px;
+    top: 15px;
+    height: 100%;
+    border-left: 2px solid var(--rojo-claro);
+}

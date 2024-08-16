@@ -16,7 +16,7 @@
 
 .aboutMeSkillsContainer{
     width: 50%;
-    margin-top: 3rem;
+    margin: 3rem .5rem 0 0;
 }
 
 .aboutMe p{
@@ -35,4 +35,13 @@
     margin-top: 2rem;
     display: flex;
     justify-content: start;
+}
+
+.dataContainer{
+    display: flex;
+}
+
+.divEducation{
+    width: 50%;
+    margin: 3rem 1rem;
 }

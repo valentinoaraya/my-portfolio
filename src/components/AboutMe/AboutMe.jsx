@@ -11,6 +11,7 @@ import mongodbSkill from "../../assets/images/mongodb-logo.png"
 import firebaseSkill from "../../assets/images/firebase-logo.png"
 import gitSkill from "../../assets/images/git-logo.png"
 import pythonSkill from "../../assets/images/python-logo.png"
+import Education from './Education/Education.jsx';
 
 const AboutMe = () => {
     return (
@@ -33,23 +34,23 @@ const AboutMe = () => {
                             </Section>
                             <Section>
                                 <div className='skillsContainer'>
-                                    <ImgSkills rutaImagen={htmlSkill} width={"60px"}/>
-                                    <ImgSkills rutaImagen={cssSkill} width={"60px"}/>
-                                    <ImgSkills rutaImagen={jsSkill} width={"60px"}/>
-                                    <ImgSkills rutaImagen={reactSkill} width={"60px"}/>
-                                    <ImgSkills rutaImagen={nodejsSkill} width={"60px"}/>
+                                    <ImgSkills rutaImagen={htmlSkill} height={"60px"}/>
+                                    <ImgSkills rutaImagen={cssSkill} height={"60px"}/>
+                                    <ImgSkills rutaImagen={jsSkill} height={"60px"}/>
+                                    <ImgSkills rutaImagen={reactSkill} height={"60px"}/>
+                                    <ImgSkills rutaImagen={nodejsSkill} height={"60px"}/>
                                 </div>
                                 <div className='skillsContainer'>
-                                    <ImgSkills rutaImagen={mongodbSkill} width={"60px"}/>
-                                    <ImgSkills rutaImagen={firebaseSkill} width={"60px"}/>
-                                    <ImgSkills rutaImagen={gitSkill} width={"60px"}/>
-                                    <ImgSkills rutaImagen={pythonSkill} width={"60px"}/>
+                                    <ImgSkills rutaImagen={mongodbSkill} height={"60px"}/>
+                                    <ImgSkills rutaImagen={firebaseSkill} height={"60px"}/>
+                                    <ImgSkills rutaImagen={gitSkill} height={"60px"}/>
+                                    <ImgSkills rutaImagen={pythonSkill} height={"60px"}/>
                                 </div>
                             </Section>
                         </div>
                     </div>
                     <div className='divEducation'>
-
+                        <Education/>       
                     </div>
                 </div>
             </div>
