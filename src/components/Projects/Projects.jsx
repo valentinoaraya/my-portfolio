@@ -6,7 +6,7 @@ import Section from '../utils/Section/Section.jsx';
 
 const Projects = () => {
     return (
-        <section className='projectsContainer'>
+        <section id='projects' className='projectsContainer'>
             <div className='divProjectsSection'>
                 <Section>
                     <h1>Proyectos</h1>

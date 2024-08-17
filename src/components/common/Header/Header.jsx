@@ -8,10 +8,9 @@ const NavBar = () => {
             <nav className='navBar'>
                 <h3>Valenitno Araya</h3>
                 <div className='divContainerNavs'>
-                    <p>Proyectos</p>
-                    <p>Habilidades</p>
-                    <p>Sobre mí</p>
-                    <p>Contacto</p>
+                    <a href="#projects"><p>Proyectos</p></a>
+                    <a href="#aboutMe"><p>Sobre mí</p></a>
+                    <a href="#contactMe"><p>Contáctame</p></a>
                 </div>
                 <Social/>
             </nav>

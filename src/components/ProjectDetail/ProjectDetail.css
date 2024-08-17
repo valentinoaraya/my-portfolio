@@ -1,0 +1,24 @@
+.notProject{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectDetailContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.divProjectDetail{
+    margin: 3rem 0;
+    max-width: 1300px;
+    width: 100%;
+}
+
+.imageProjectDetail{
+    margin-top: 3rem;
+    width: 100%;
+    border-radius: 20px;
+}

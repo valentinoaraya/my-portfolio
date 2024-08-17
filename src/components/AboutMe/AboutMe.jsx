@@ -15,7 +15,7 @@ import Education from './Education/Education.jsx';
 
 const AboutMe = () => {
     return (
-        <section className='aboutMeContainer'>
+        <section id='aboutMe' className='aboutMeContainer'>
             <div className='divAboutMeSection'>
                 <Section>
                     <h1>Sobre mí</h1>

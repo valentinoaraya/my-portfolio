@@ -17,6 +17,10 @@
   color: var(--blanco);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background: linear-gradient(to top, var(--negro), var(--gris-oscuro));
 }
