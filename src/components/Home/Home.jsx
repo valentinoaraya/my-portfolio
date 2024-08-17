@@ -12,7 +12,9 @@ const Home = () => {
                     <h1 className='principalTitle'>¡Hola! Soy Valentino Araya,</h1>
                     <h2 className='secundaryTitle'>Front End developer.</h2>
                     <p className='mainP'>Amo convertir ideas en experiencias digitales intuitivas y atractivas.</p>
-                    <Button download={true}>Descargar CV</Button>
+                    <div className='buttonContainer'>
+                        <Button download={true}>Descargar CV</Button>
+                    </div>
                 </div>                                    
                 <div className='divImgContainer'>
                     <img className='principalImg animate__animated animate__fadeInUp' src={imagenPrincipal} alt="imagen" />

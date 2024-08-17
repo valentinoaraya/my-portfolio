@@ -33,18 +33,24 @@ const AboutMe = () => {
                                 <h2>Habilidades</h2>
                             </Section>
                             <Section>
-                                <div className='skillsContainer'>
-                                    <ImgSkills rutaImagen={htmlSkill} height={"60px"}/>
-                                    <ImgSkills rutaImagen={cssSkill} height={"60px"}/>
-                                    <ImgSkills rutaImagen={jsSkill} height={"60px"}/>
-                                    <ImgSkills rutaImagen={reactSkill} height={"60px"}/>
-                                    <ImgSkills rutaImagen={nodejsSkill} height={"60px"}/>
+                                <div className='skillsContainer fullSkillsContainer'>
+                                    <ImgSkills rutaImagen={htmlSkill} />
+                                    <ImgSkills rutaImagen={cssSkill} />
+                                    <ImgSkills rutaImagen={jsSkill} />
+                                    <ImgSkills rutaImagen={reactSkill} />
+                                    <ImgSkills rutaImagen={nodejsSkill} />
+                                    <div className='skillsContainer puedeAparecer'>
+                                        <ImgSkills rutaImagen={mongodbSkill} />
+                                        <ImgSkills rutaImagen={firebaseSkill} />
+                                        <ImgSkills rutaImagen={gitSkill} />
+                                        <ImgSkills rutaImagen={pythonSkill} />
+                                    </div>
                                 </div>
-                                <div className='skillsContainer'>
-                                    <ImgSkills rutaImagen={mongodbSkill} height={"60px"}/>
-                                    <ImgSkills rutaImagen={firebaseSkill} height={"60px"}/>
-                                    <ImgSkills rutaImagen={gitSkill} height={"60px"}/>
-                                    <ImgSkills rutaImagen={pythonSkill} height={"60px"}/>
+                                <div className='skillsContainer puedeDesaparecer'>
+                                    <ImgSkills rutaImagen={mongodbSkill} />
+                                    <ImgSkills rutaImagen={firebaseSkill} />
+                                    <ImgSkills rutaImagen={gitSkill} />
+                                    <ImgSkills rutaImagen={pythonSkill} />
                                 </div>
                             </Section>
                         </div>

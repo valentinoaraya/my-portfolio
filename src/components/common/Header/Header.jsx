@@ -11,8 +11,10 @@ const NavBar = () => {
                     <a href="#projects"><p>Proyectos</p></a>
                     <a href="#aboutMe"><p>Sobre mí</p></a>
                     <a href="#contactMe"><p>Contáctame</p></a>
-                </div>
-                <Social/>
+                </div> 
+                <div className='redes'>
+                    <Social/>
+                </div>       
             </nav>
         </header>
     );

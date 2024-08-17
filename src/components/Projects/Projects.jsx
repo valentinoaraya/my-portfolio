@@ -22,6 +22,9 @@ const Projects = () => {
                                         Cuenta con interfaces para que el administrador (dueño) pueda subir, editar y eliminar productos cuando desee.
                                         El Front End fue realizado con React Js y el Back End con Node Js y Firebase.`
                             }
+                            secondDescription={`E-commerce para una empresa dedicada a la venta de ropa. 
+                                                El Front End fue realizado con React Js y el Back End con Node Js y Firebase.`
+                            }
                             web={"https://sporty-maxx.vercel.app/"}
                         />
                     </Section>

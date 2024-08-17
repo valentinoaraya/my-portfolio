@@ -1,12 +1,12 @@
 import React from 'react';
 import "./ImgSkills.css"
 
-const ImgSkills = ({rutaImagen, height}) => {
+const ImgSkills = ({rutaImagen}) => {
     return (
         <div>
             <img 
-                className='imgSkill' src={rutaImagen} alt="Imagen habilidad" 
-                style={{height: height}}
+                className='imgSkill' src={rutaImagen} 
+                alt="Imagen habilidad" 
             />
         </div>
     );

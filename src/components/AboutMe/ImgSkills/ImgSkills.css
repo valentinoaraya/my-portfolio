@@ -1,3 +1,11 @@
 .imgSkill{
     margin-right: 2rem;
+    height: 60px;
+}
+
+@media screen and (max-width: 630px){
+    .imgSkill{
+        margin-right: 1rem;
+        height: 40px;
+    }
 }
