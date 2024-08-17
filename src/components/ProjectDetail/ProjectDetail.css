@@ -22,3 +22,101 @@
     width: 100%;
     border-radius: 20px;
 }
+
+.link{
+    text-decoration: none;
+}
+
+.volver{
+    color: var(--rojo-claro);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    .volverFlecha{
+        color: var(--rojo-claro);
+        font-weight: 900;
+    }
+}
+
+.titleProjectDetail{
+    margin-bottom: 3rem;
+}
+
+.pDataProject{
+    margin-bottom: 1rem;
+    span{
+        padding: .3rem;
+        background-color: var(--rojo-oscuro);
+        color: var(--rojo-claro);
+        margin-right: .5rem;
+        border-radius: 5px;
+    }
+}
+
+.subtitle{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.demoResponsiveSection{
+    margin: 8rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .responsiveText{
+        margin-right: 1rem;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        p{
+            font-size: 10rem;
+            font-weight: 800;
+        }
+    }
+    .imgResponsive{
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-left: 1rem;
+        .imgDemoResponsive{
+            width: 50%;
+            border-radius: 50px;
+        }
+    }
+}
+
+.informationProjectContainer{
+    width: 100%;
+    display: flex;
+    margin: 3rem 0;
+    .dataProject{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 2rem;
+        width: 50%;
+        h3{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+    .imgProject{
+        width: 50%;
+    }
+}
+
+.imgDemo{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.invertContent{
+    flex-direction: row-reverse;
+}

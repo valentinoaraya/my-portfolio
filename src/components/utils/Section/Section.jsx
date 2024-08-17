@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import "./Section.css"
 import "animate.css";
 
-const Section = ({children}) => {
+const Section = ({children, th}) => {
 
     const [isVisible, setIsVisible] = useState(false)
     const sectionRef = useRef(null)
@@ -16,7 +16,7 @@ const Section = ({children}) => {
                 }
             },
             {
-                threshold: 1,
+                threshold: th ? th : 1,
             }
         )
 
