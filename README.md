@@ -1,8 +1,56 @@
-# React + Vite
+# Valentino Araya - Portafolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a mi portafolio personal, donde presento mis proyectos, habilidades y experiencia como Front End Developer. Este portafolio está diseñado para mostrar mi trabajo de manera organizada y atractiva, utilizando las últimas tecnologías en desarrollo web.
 
-Currently, two official plugins are available:
+### 🖥️ Tecnologías Utilizadas
+- React JS: Biblioteca principal para la construcción de la interfaz de usuario.
+- JavaScript (ES6+): Para la lógica y la manipulación del DOM.
+- CSS3: Para el diseño y la animación de los elementos.
+- HTML5: Estructura semántica del contenido.
+- React Router DOM: Para la navegación entre las diferentes secciones del portafolio.
+- Animate.css: Biblioteca de animaciones para mejorar la interactividad.
+- Git/GitHub: Control de versiones y despliegue.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔧 Configuración y Ejecución
+
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/ValentinoAraya/my-portfolio.git
+```
+
+2. Navega al directorio del proyecto:
+
+```bash
+cd my-portfolio
+```
+
+3. Instala las dependencias:
+
+```bash
+npm install
+```
+
+4. Inicia la aplicación:
+
+```bash
+    npm start
+```
+
+### 🛠️ Despliegue
+
+Este portafolio está desplegado en [Vercel](https://valentino-araya-portfolio.vercel.app/) y es accesible públicamente.
+
+### 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Puedes usar, modificar y distribuir el código como quieras.
+
+### 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Si tienes alguna sugerencia o encuentras un problema, no dudes en abrir un issue o enviar un pull request.
+
+### 📬 Contacto
+
+Si quieres ponerte en contacto conmigo, puedes hacerlo a través de [LinkedIn](https://www.linkedin.com/in/valentino-araya-18915825b/) o enviarme un correo a valentinoarya04@gmail.com.
