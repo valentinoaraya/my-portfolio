@@ -1,12 +1,11 @@
 .aboutMeContainer{
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
 }
 
 .divAboutMeSection{
-    margin: 3rem 0;
+    margin: 3rem 5rem;
     max-width: 1300px;
     width: 100%;
     h1{
@@ -44,4 +43,73 @@
 .divEducation{
     width: 50%;
     margin: 3rem 1rem;
+}
+
+.puedeAparecer{
+    display: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .dataContainer{
+        flex-direction: column;
+    }
+    .aboutMeSkillsContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMe{
+        width: 100%;
+        margin: 0 0 3rem 0;
+    }
+    .skills{
+        width: 100%;
+        margin: 0;
+    }
+    .puedeAparecer{
+        display: flex;
+        margin: 0;
+    }
+    .puedeDesaparecer{
+        display: none;
+    }
+    .fullSkillsContainer{
+        justify-content: center;
+    }
+    .divEducation{
+        width: 100%;
+        margin: 5rem 0 3rem 0;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .puedeAparecer{
+        display: none;
+    }
+    .puedeDesaparecer{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .divAboutMeSection{
+        h1{
+            font-size: 1.8rem;
+        }
+    }
+
+    .skills{
+        h2{
+            font-size: 1.8rem;
+        }
+    }
+
+    .aboutMe p {
+        font-size: 1.1rem;
+    }
+
+    .puedeDesaparecer{
+        margin-top: 1rem;
+    }
 }

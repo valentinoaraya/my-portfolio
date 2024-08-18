@@ -16,7 +16,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0 3rem;
+    margin: 0 5rem;
 }
 
 .divContainerNavs{
@@ -32,6 +32,50 @@
         &:hover{
             color: var(--rojo-claro);
             transition: .2s ease-in-out;
+        }
+    }
+}
+
+@media screen and (max-width: 950px){
+    .navBar{
+        margin: 0 2rem;
+        h3{
+            display: none;
+        }
+    }
+    .divContainerNavs{
+        width: 100%;
+        justify-content: start;
+        p{
+            margin-right: 1rem;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 520px){
+    .headerNavBar{
+        height: auto;
+    }
+    .navBar{
+        flex-direction: column;
+    }
+    .divContainerNavs{
+        justify-content: space-evenly;
+        margin: 1rem 0;
+        p{
+            margin: 0;
+        }
+    }
+    .redes{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .divContainerNavs{
+        p{
+            font-size: 0.8rem;
         }
     }
 }

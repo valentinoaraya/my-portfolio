@@ -38,3 +38,26 @@
         transition: .2s ease-in-out;
     }
 }
+
+
+@media screen and (max-width: 1150px) {
+    .botonOriginal{
+        padding: .8rem;
+        p{
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .botonOriginal{
+        padding: .6rem;
+        p{
+            font-size: .9rem;
+        }
+    }
+
+    .bi-download{
+        margin-right: .5rem;
+    }
+}

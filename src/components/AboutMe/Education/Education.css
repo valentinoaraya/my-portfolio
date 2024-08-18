@@ -42,3 +42,11 @@
     height: 100%;
     border-left: 2px solid var(--rojo-claro);
 }
+
+@media screen and (max-width: 800px) {
+    .timeLineItem{
+        p{
+            font-size: 1rem;
+        }
+    }
+}

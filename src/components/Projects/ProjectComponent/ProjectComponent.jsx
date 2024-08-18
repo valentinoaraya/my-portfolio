@@ -3,7 +3,7 @@ import "./ProjectComponent.css"
 import Button from '../../common/Button/Button.jsx';
 import { Link } from 'react-router-dom';
 
-const ProjectComponent = ({title, imagen, descripicon, web, github}) => {
+const ProjectComponent = ({title, imagen, descripicon, secondDescription, web, github}) => {
 
     if (!title){
         return <div className='projectContainer'>
@@ -25,6 +25,9 @@ const ProjectComponent = ({title, imagen, descripicon, web, github}) => {
                     <h2 className='titleProject'>{title}</h2>
                     <p className='descriptionProject'>
                         {descripicon}
+                    </p>
+                    <p className='secondDescripiton'>
+                        {secondDescription}
                     </p>
                     <div className='divButtonsProject'>
                         <Link to={`/project-detail/${newTitle}`}>

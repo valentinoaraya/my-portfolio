@@ -12,7 +12,7 @@
 }
 
 .divProjectDetail{
-    margin: 3rem 0;
+    margin: 3rem 5rem;
     max-width: 1300px;
     width: 100%;
 }
@@ -86,7 +86,7 @@ p{
         align-items: center;
         margin-left: 1rem;
         .imgDemoResponsive{
-            width: 50%;
+            height: 643px;
             border-radius: 50px;
         }
     }
@@ -109,6 +109,9 @@ p{
     }
     .imgProject{
         width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -119,4 +122,77 @@ p{
 
 .invertContent{
     flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1020px){
+    .informationProjectContainer{
+        flex-direction: column;
+        .dataProject{
+            width: 100%;
+            margin: 0 0 2rem 0;
+        }
+        .imgProject{
+            width: 100%;
+        }
+    }
+    .demoResponsiveSection{
+        .responsiveText{
+            p{
+                font-size: 7rem;
+            }
+        }
+        .imgResponsive{
+            .imgDemoResponsive{
+                height: 500px;
+            }
+        }
+    }   
+}
+
+@media screen and (max-width: 780px){
+
+    .divProjectDetail{
+        margin: 3rem 2rem;
+    }
+
+    .demoResponsiveSection{
+        .responsiveText{
+            p{
+                font-size: 5rem;
+            }
+        }
+        .imgResponsive{
+            .imgDemoResponsive{
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    p{
+        font-size: 1rem;
+    }
+
+    .informationProjectContainer{
+        .dataProject{
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .demoResponsiveSection{
+        .responsiveText{
+            p{
+                font-size: 4rem;
+            }
+        }
+        .imgResponsive{
+            .imgDemoResponsive{
+                height: 300px;
+            }
+        }
+    }
 }
