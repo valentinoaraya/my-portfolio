@@ -62,7 +62,7 @@ const ProjectDetail = () => {
                             </div>
                     </div>
 
-                    <Section>
+                    <Section th={0.7}>
                         <div className='informationProjectContainer'>
                             <div className='dataProject'>
                                 <h3>Administración de productos.</h3>
@@ -74,7 +74,7 @@ const ProjectDetail = () => {
                         </div>
                     </Section>
 
-                    <Section>
+                    <Section th={0.7}>
                         <div className='informationProjectContainer invertContent'>
                             <div className='dataProject'>
                                 <h3>Cloudinary - Almacenamiento de imágenes.</h3>
@@ -86,7 +86,7 @@ const ProjectDetail = () => {
                         </div>
                     </Section>
 
-                    <Section>
+                    <Section th={0.7}>
                         <div className='informationProjectContainer'>
                             <div className='dataProject'>
                                 <h3>Firebase Authentication.</h3>
@@ -98,7 +98,7 @@ const ProjectDetail = () => {
                         </div>
                     </Section>
 
-                    <Section>
+                    <Section th={0.7}>
                         <div className='informationProjectContainer invertContent'>
                             <div className='dataProject'>
                                 <h3>Mercado Pago integration.</h3>
@@ -110,7 +110,7 @@ const ProjectDetail = () => {
                         </div>
                     </Section>
 
-                    <Section>
+                    <Section th={0.7}>
                         <div className='informationProjectContainer'>
                             <div className='dataProject'>
                                 <h3>Envío de correos y órdenes de compras.</h3>

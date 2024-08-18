@@ -144,6 +144,7 @@ p{
         .imgResponsive{
             .imgDemoResponsive{
                 height: 500px;
+                border-radius: 40px;
             }
         }
     }   
@@ -164,7 +165,8 @@ p{
         .imgResponsive{
             .imgDemoResponsive{
                 height: 400px;
-            }
+                border-radius: 30px;
+            }   
         }
     }
 }
@@ -192,6 +194,7 @@ p{
         .imgResponsive{
             .imgDemoResponsive{
                 height: 300px;
+                border-radius: 25px;
             }
         }
     }
