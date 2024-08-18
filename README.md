@@ -3,13 +3,13 @@
 Bienvenido a mi portafolio personal, donde presento mis proyectos, habilidades y experiencia como Front End Developer. Este portafolio está diseñado para mostrar mi trabajo de manera organizada y atractiva, utilizando las últimas tecnologías en desarrollo web.
 
 ### 🖥️ Tecnologías Utilizadas
-- React JS: Biblioteca principal para la construcción de la interfaz de usuario.
-- JavaScript (ES6+): Para la lógica y la manipulación del DOM.
-- CSS3: Para el diseño y la animación de los elementos.
-- HTML5: Estructura semántica del contenido.
-- React Router DOM: Para la navegación entre las diferentes secciones del portafolio.
-- Animate.css: Biblioteca de animaciones para mejorar la interactividad.
-- Git/GitHub: Control de versiones y despliegue.
+- **React JS:** Biblioteca principal para la construcción de la interfaz de usuario.
+- **JavaScript (ES6+):** Para la lógica y la manipulación del DOM.
+- **CSS3:** Para el diseño y la animación de los elementos.
+- **HTML5:** Estructura semántica del contenido.
+- **React Router DOM:** Para la navegación entre las diferentes secciones del portafolio.
+- **Animate.css:** Biblioteca de animaciones para mejorar la interactividad.
+- **Git/GitHub:** Control de versiones y despliegue.
 
 ### 🔧 Configuración y Ejecución
 
@@ -36,7 +36,7 @@ npm install
 4. Inicia la aplicación:
 
 ```bash
-    npm start
+npm start
 ```
 
 ### 🛠️ Despliegue
