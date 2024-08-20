@@ -5,8 +5,8 @@ const Button = ({children, download, github, className}) => {
 
     const handleDownload = () => {
         const link = document.createElement("a")
-        link.href = "/CV-ValentinoAraya.pdf"
-        link.download = "CV-ValentinoAraya.pdf"
+        link.href = "/CV - Valentino Araya.pdf"
+        link.download = "CV - Valentino Araya.pdf"
         link.click()
     }
 
