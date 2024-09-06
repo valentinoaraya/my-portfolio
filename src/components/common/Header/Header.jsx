@@ -6,15 +6,15 @@ const NavBar = () => {
     return (
         <header className='headerNavBar'>
             <nav className='navBar'>
-                <h3>Valenitno Araya</h3>
+                <h3>Valentino Araya</h3>
                 <div className='divContainerNavs'>
                     <a href="#projects"><p>Proyectos</p></a>
                     <a href="#aboutMe"><p>Sobre mí</p></a>
                     <a href="#contactMe"><p>Contáctame</p></a>
-                </div> 
+                </div>
                 <div className='redes'>
-                    <Social/>
-                </div>       
+                    <Social />
+                </div>
             </nav>
         </header>
     );
