@@ -70,10 +70,6 @@
         width: 100%;
         margin-bottom: 2rem;
 
-        h2 {
-            align-self: flex-start;
-        }
-
         .buttonContainer {
             align-self: center;
         }
@@ -96,5 +92,18 @@
 
     .mainP {
         font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 585px) {
+
+    .divInfoContainer h2,
+    .principalTitle,
+    .mainP {
+        align-self: flex-start;
+    }
+
+    .mainPage {
+        margin: 0 2rem;
     }
 }
