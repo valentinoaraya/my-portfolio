@@ -1,31 +1,32 @@
-.timeLine{
+.timeLine {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.timeLineItem{
+.timeLineItem {
     display: flex;
     align-items: start;
     margin-bottom: 2rem;
-    .year{
+
+    .year {
         flex-shrink: 0;
         width: 46px;
         color: var(--rojo-claro);
     }
 
-    .title{
+    .title {
         font-size: 1.5rem;
         margin-bottom: .5rem;
     }
 
-    p{
+    p {
         margin-bottom: 1rem;
     }
 }
 
-.timeLinePoint{
+.timeLinePoint {
     flex-shrink: 0;
     margin: 0 1rem;
     width: 16px;
@@ -35,17 +36,17 @@
     box-shadow: 0px 0px 10px 3px var(--rojo-claro);
 }
 
-.timeLineLine{
+.timeLineLine {
     position: absolute;
-    left: 69px;
+    left: 67px;
     top: 15px;
     height: 100%;
     border-left: 2px solid var(--rojo-claro);
 }
 
 @media screen and (max-width: 800px) {
-    .timeLineItem{
-        p{
+    .timeLineItem {
+        p {
             font-size: 1rem;
         }
     }

@@ -8,7 +8,7 @@
 
 .mainPage {
     display: flex;
-    max-width: 1300px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 5rem;
     justify-content: center;
@@ -27,6 +27,7 @@
 }
 
 .secundaryTitle {
+    margin: .5rem 0;
     font-size: 2rem;
     color: var(--rojo-claro);
 }
@@ -34,11 +35,6 @@
 .mainP {
     margin: .5rem 0 1rem;
     font-size: 1.5rem;
-}
-
-.principalImg {
-    width: 470px;
-    border-radius: 40%;
 }
 
 @media screen and (max-width:1150px) {
@@ -52,10 +48,6 @@
 
     .mainP {
         font-size: 1rem;
-    }
-
-    .principalImg {
-        width: 350px;
     }
 }
 
@@ -75,10 +67,6 @@
         }
     }
 
-    .principalImg {
-        width: 300px;
-    }
-
 }
 
 @media screen and (max-width: 610px) {
@@ -96,14 +84,13 @@
 }
 
 @media screen and (max-width: 585px) {
-
-    .divInfoContainer h2,
-    .principalTitle,
-    .mainP {
-        align-self: flex-start;
-    }
-
     .mainPage {
         margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 343px) {
+    .principalTitle {
+        font-size: 1.3rem;
     }
 }

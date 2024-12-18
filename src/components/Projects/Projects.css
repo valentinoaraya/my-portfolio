@@ -1,21 +1,22 @@
-.projectsContainer{
+.projectsContainer {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.divProjectsSection{
+.divProjectsSection {
     margin: 3rem 5rem;
-    max-width: 1300px;
+    max-width: 1200px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    h1{
+
+    h1 {
         font-size: 2rem;
     }
 }
 
-.divProjects{
+.divProjects {
     width: 100%;
     height: 100%;
     display: flex;
@@ -25,7 +26,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .divProjectsSection{
+    .divProjectsSection {
         margin: 3rem 2rem;
     }
 }
