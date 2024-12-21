@@ -2,7 +2,7 @@ import React from 'react';
 import "./DetailedProjects.css"
 import { Link } from 'react-router-dom';
 
-const HeaderDetail = ({ title, website, stack, github, subtitle, description, imageProject, volver, githubSection }) => {
+const HeaderDetail = ({ title, website, stack, github, subtitle, description, imageProject, volver, githubSection, repositorioBack }) => {
     return (
         <>
             {
@@ -15,7 +15,8 @@ const HeaderDetail = ({ title, website, stack, github, subtitle, description, im
 
             {website && <p className='pDataProject'><span>WEBSITE</span> <a href={website} target='_blank' rel='noopener noreferreer'>{website}</a></p>}
             {stack && <p className='pDataProject'><span>STACK</span> {stack}</p>}
-            {githubSection && <p className='pDataProject'><span>GITHUB</span> {github || "Repositorio privado."}</p>}
+            {githubSection && <p className='pDataProject'><span>GITHUB</span> {github ? <a href={github} target='_blank' rel='noopener noreferreer'>{github}</a> : "Repositorio privado."}</p>}
+            {repositorioBack && <p className='pDataProject'><span>REPOSITORIO BACKEND</span> <a href={repositorioBack} target='_blank' rel='noopener noreferreer'>{repositorioBack}</a></p>}
 
             {subtitle && <h2 className='subtitle'>{subtitle}</h2>}
             {description && <p>{description}</p>}

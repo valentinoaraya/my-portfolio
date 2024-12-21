@@ -29,6 +29,8 @@ const Project1Detail = () => {
                     description={"E-commerce realizado para una tienda de ropa."}
                     imageProject={project1Image}
                     githubSection={true}
+                    github={"https://github.com/valentinoaraya/SportyMaxx"}
+                    repositorioBack={"https://github.com/valentinoaraya/sporty-maxx-backend"}
                 />
 
                 <div className='demoResponsiveSection'>

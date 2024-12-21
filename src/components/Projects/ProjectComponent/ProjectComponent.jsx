@@ -70,7 +70,9 @@ const ProjectComponent = ({ title, imagen, descripicon, secondDescription, web, 
                         }
                         {
                             github &&
-                            <Button className={"outLineButton"} github={true} />
+                            <a href={github} target='_blank' rel='noopener noreferreer'>
+                                <Button className={"outLineButton"} github={true} />
+                            </a>
                         }
                     </div>
                 </div>

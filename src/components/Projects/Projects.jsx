@@ -11,22 +11,9 @@ const Projects = () => {
             <div className='divProjectsSection'>
                 <h1>Proyectos</h1>
                 <div className='divProjects'>
+
                     <ProjectComponent
-                        github={false}
-                        title={"Turnero PAMI"}
-                        imagen={imgProject3}
-                        descripicon={`Sistema de gestión de turnos para una clínica.
-                                      Cada doctor cuenta con su calendario donde tendrán sus turnos disponibles.
-                                      Cuenta con un panel de administrador con el cual es posible habilitar y deshabilitar turnos a los doctores,
-                                      además de ver los turnos tomados por los pacientes.
-                                      El administrador puede agregar, editar y eliminar doctores.`
-                        }
-                        secondDescription={`otra maldita descripcion`}
-                        web={"https://turnero.rcg.ar/d"}
-                        tecnologias={"rct nd sql"}
-                    />
-                    <ProjectComponent
-                        github={false}
+                        github={"https://github.com/valentinoaraya/SportyMaxx"}
                         title={"SportyMaxx"}
                         imagen={imgProject1}
                         descripicon={`E-commerce Full-stack para una empresa dedicada a la venta de ropa.
@@ -40,7 +27,23 @@ const Projects = () => {
                         tecnologias={"rct nd fb"}
                     />
                     <ProjectComponent
-                        github={false}
+                        title={"Turnero PAMI"}
+                        imagen={imgProject3}
+                        descripicon={`Sistema de gestión de turnos para una clínica.
+                                      Cada doctor cuenta con su calendario donde tendrán sus turnos disponibles.
+                                      Cuenta con un panel de administrador con el cual es posible habilitar y deshabilitar turnos a los doctores,
+                                      además de ver los turnos tomados por los pacientes.
+                                      El administrador puede agregar, editar y eliminar doctores.`
+                        }
+                        secondDescription={`Sistema de gestión de turnos para una clínica.
+                                            Los usuarios pueden ver los turnos disponibles de los doctores y tomar uno.
+                                            El administrador puede gestionar los doctores y los turnos.`
+                        }
+                        web={"https://turnero.rcg.ar/d"}
+                        tecnologias={"rct nd sql"}
+                    />
+                    <ProjectComponent
+                        github={"https://github.com/valentinoaraya/ventatrack"}
                         title={"VentaTrack"}
                         imagen={imgProject2}
                         descripicon={`Software de seguimiento de ventas e inventario para negocios o despensas.

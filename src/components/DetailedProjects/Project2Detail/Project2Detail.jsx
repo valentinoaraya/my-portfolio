@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import "./Project2Detail.css"
 import HeaderDetail from '../HeaderDetail.jsx';
 import ImageDetail from '../ImageDetail.jsx';
@@ -42,7 +42,7 @@ const Project2Detail = () => {
                             <span>REACT JS</span>
                             Me permitió construir un frontend dinámico y modular, ideal para manejar la interacción en tiempo real entre los usuarios y el sistema.
                             Dividí la interfaz en componentes reutilizables, como el calendario, formularios de doctores, y la gestión de turnos.
-                            Utilizando "fetch" se envían las peticiones correspondientes a cada endpoint de mi API.
+                            Utilizando fetch se envían las peticiones correspondientes a cada endpoint de mi API.
                         </p>
                         <p className='pDataProject2'>
                             <span>FULLCALENDAR</span>
