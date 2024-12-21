@@ -1,4 +1,4 @@
-.headerNavBar{
+.headerNavBar {
     position: absolute;
     top: 0;
     left: 0;
@@ -11,70 +11,80 @@
     border-bottom: 1px solid var(--blanco);
 }
 
-.navBar{
-    max-width: 1300px;
+.navBar {
+    max-width: 1200px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 5rem;
 }
 
-.divContainerNavs{
+.divContainerNavs {
     display: flex;
     width: 50%;
     justify-content: space-evenly;
     align-items: center;
+
     a {
         text-decoration: none;
     }
-    p{
+
+    p {
         cursor: pointer;
-        &:hover{
+
+        &:hover {
             color: var(--rojo-claro);
             transition: .2s ease-in-out;
         }
     }
 }
 
-@media screen and (max-width: 950px){
-    .navBar{
+@media screen and (max-width: 950px) {
+    .navBar {
         margin: 0 2rem;
-        h3{
+
+        h3 {
             display: none;
         }
     }
-    .divContainerNavs{
+
+    .divContainerNavs {
         width: 100%;
         justify-content: start;
-        p{
+
+        p {
             margin-right: 1rem;
             font-size: 1rem;
         }
     }
 }
 
-@media screen and (max-width: 520px){
-    .headerNavBar{
+@media screen and (max-width: 520px) {
+    .headerNavBar {
         height: auto;
     }
-    .navBar{
+
+    .navBar {
         flex-direction: column;
     }
-    .divContainerNavs{
+
+    .divContainerNavs {
         justify-content: space-evenly;
         margin: 1rem 0;
-        p{
+
+        p {
             margin: 0;
         }
     }
-    .redes{
+
+    .redes {
         display: none;
     }
 }
 
-@media screen and (max-width: 360px){
-    .divContainerNavs{
-        p{
+@media screen and (max-width: 360px) {
+    .divContainerNavs {
+        p {
             font-size: 0.8rem;
         }
     }

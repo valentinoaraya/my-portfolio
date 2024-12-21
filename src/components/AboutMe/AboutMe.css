@@ -1,107 +1,118 @@
-.aboutMeContainer{
+.aboutMeContainer {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.divAboutMeSection{
+.divAboutMeSection {
     margin: 3rem 5rem;
-    max-width: 1300px;
+    max-width: 1200px;
     width: 100%;
-    h1{
+
+    h1 {
         font-size: 2rem;
     }
 }
 
-.aboutMeSkillsContainer{
+.aboutMeSkillsContainer {
     width: 50%;
     margin: 3rem .5rem 0 0;
 }
 
-.aboutMe p{
+.aboutMe p {
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
 
-.skills{
+.skills {
     margin-top: 3rem;
-    h2{
+
+    h2 {
         font-size: 2rem;
     }
 }
 
-.skillsContainer{
+.skillsContainer {
     margin-top: 2rem;
     display: flex;
     justify-content: start;
 }
 
-.dataContainer{
+.dataContainer {
     display: flex;
 }
 
-.divEducation{
+.divEducation {
     width: 50%;
     margin: 3rem 1rem;
 }
 
-.puedeAparecer{
+.puedeAparecer {
     display: none;
 }
 
 @media screen and (max-width: 1150px) {
-    .dataContainer{
+    .dataContainer {
         flex-direction: column;
     }
-    .aboutMeSkillsContainer{
+
+    .aboutMeSkillsContainer {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-    .aboutMe{
+
+    .aboutMe {
         width: 100%;
         margin: 0 0 3rem 0;
     }
-    .skills{
+
+    .skills {
         width: 100%;
         margin: 0;
     }
-    .puedeAparecer{
+
+    .puedeAparecer {
         display: flex;
         margin: 0;
     }
-    .puedeDesaparecer{
+
+    .puedeDesaparecer {
         display: none;
     }
-    .fullSkillsContainer{
+
+    .fullSkillsContainer {
         justify-content: center;
     }
-    .divEducation{
+
+    .divEducation {
         width: 100%;
         margin: 5rem 0 3rem 0;
     }
 }
 
 @media screen and (max-width: 965px) {
-    .puedeAparecer{
+    .puedeAparecer {
         display: none;
     }
-    .puedeDesaparecer{
+
+    .puedeDesaparecer {
         display: flex;
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .divAboutMeSection{
+    .divAboutMeSection {
         margin: 3rem 2rem;
-        h1{
+
+        h1 {
             font-size: 1.8rem;
         }
     }
 
-    .skills{
-        h2{
+    .skills {
+        h2 {
             font-size: 1.8rem;
         }
     }
@@ -110,7 +121,7 @@
         font-size: 1.1rem;
     }
 
-    .puedeDesaparecer{
+    .puedeDesaparecer {
         margin-top: 1rem;
     }
 }
