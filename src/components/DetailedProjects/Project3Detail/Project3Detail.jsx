@@ -31,14 +31,14 @@ const Project3Detail = () => {
                 />
 
                 <div className='divDescriptionContainer'>
-                    <h1 className='subtitleProject'>⚠️ Atención - Versión de prueba</h1>
+                    <h1 className='subtitleProject warningTitle'>⚠️ Atención - Versión de prueba</h1>
                 </div>
                 <div className='divParrafos'>
                     <p>Al acceder al sitio web accederás a una versión de prueba de la aplicación.</p>
                     <p>En esta versión no podrás realizar cambios en la base de datos por cuestiones de seguridad.</p>
                 </div>
                 <div className='divCredenciales'>
-                    <h2>Credenciales para ingresar a la versión de prueba:</h2>
+                    <h2 className='titleCredentials'>Credenciales para ingresar a la versión de prueba:</h2>
                     <ul>
                         <li><span>Usuario:</span> testuser@example.com</li>
                         <li><span>Contraseña:</span> testuser</li>
