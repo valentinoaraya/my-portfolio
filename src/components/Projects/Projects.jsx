@@ -55,7 +55,7 @@ const Projects = () => {
                                             Cuenta con gestión de productos (agregar, editar, eliminar) y visualización de ventas por día.
                                             `
                         }
-                        web={"https://ventatrack.vercel.app/"}
+                        web={"https://ventatrack-trial-version.vercel.app/"}
                         tecnologias={"rct fb"}
                     />
                 </div>
