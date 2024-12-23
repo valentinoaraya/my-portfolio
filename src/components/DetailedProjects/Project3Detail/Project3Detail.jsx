@@ -21,7 +21,7 @@ const Project3Detail = () => {
                 <HeaderDetail
                     volver={true}
                     title={"VentaTrack"}
-                    website={"https://ventatrack.vercel.app/"}
+                    website={"https://ventatrack-trial-version.vercel.app/"}
                     stack={"React JS, Firebase."}
                     subtitle={"Software de seguimiento de ventas e inventario."}
                     description={"Software de seguimiento de ventas e inventario para negocios o despensas. Front End realizado con React JS, se comunica directamente con una base de datos de Firebase. Cuenta con gestión de productos (agregar, editar, eliminar) y visualización de ventas por día."}
@@ -30,6 +30,20 @@ const Project3Detail = () => {
                     github={"https://github.com/valentinoaraya/ventatrack"}
                 />
 
+                <div className='divDescriptionContainer'>
+                    <h1 className='subtitleProject'>⚠️ Atención - Versión de prueba</h1>
+                </div>
+                <div className='divParrafos'>
+                    <p>Al acceder al sitio web accederás a una versión de prueba de la aplicación.</p>
+                    <p>En esta versión no podrás realizar cambios en la base de datos por cuestiones de seguridad.</p>
+                </div>
+                <div className='divCredenciales'>
+                    <h2>Credenciales para ingresar a la versión de prueba:</h2>
+                    <ul>
+                        <li><span>Usuario:</span> testuser@example.com</li>
+                        <li><span>Contraseña:</span> testuser</li>
+                    </ul>
+                </div>
 
                 <div className='divDescriptionContainer'>
                     <h2 className='principalTitle subtitleProject'>Funcionamiento principal:</h2>
@@ -77,12 +91,14 @@ const Project3Detail = () => {
                 />
 
                 <div className='divDescriptionContainer'>
-                    <h2 className='principalTitle subtitleProject'>Adicional:</h2>
+                    <h1 className='subtitleProject'>Adicional:</h1>
                 </div>
-                <p>
-                    La idea es seguir agregando características como por ejemplo una implementación de Mercado Pago para poder
-                    registrar las ventas que se realicen mediante transferencias bancarias y los egresos de dinero generados con este medio de pago.
-                </p>
+                <div className='divParrafos'>
+                    <p>
+                        La idea es seguir agregando características como por ejemplo una implementación de Mercado Pago para poder
+                        registrar las ventas que se realicen mediante transferencias bancarias y los egresos de dinero generados con este medio de pago.
+                    </p>
+                </div>
 
             </div>
         </div>

@@ -48,6 +48,7 @@
     display: flex;
     width: 100%;
     justify-content: start;
+    align-items: center;
 }
 
 .moreProjectsInprocess {

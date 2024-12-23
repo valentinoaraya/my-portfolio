@@ -92,6 +92,14 @@ p {
             width: 100%;
         }
     }
+
+    .pDataProject {
+        font-size: 1rem;
+
+        span {
+            padding: .2rem;
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -106,5 +114,9 @@ p {
                 font-size: 1.5rem;
             }
         }
+    }
+
+    .pDataProject {
+        font-size: .8rem;
     }
 }

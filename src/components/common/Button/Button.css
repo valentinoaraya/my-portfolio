@@ -1,63 +1,70 @@
-.botonOriginal{
+.botonOriginal {
     padding: 1rem;
     background-color: var(--rojo-claro);
     border: none;
-    border-radius: 50px;    
+    border-radius: 50px;
     cursor: pointer;
     margin-right: 1rem;
-    &:hover{
+
+    &:hover {
         box-shadow: 0px 0px 10px 3px var(--rojo-claro);
         transition: .2s ease-in-out;
     }
-    p{
+
+    .botonTexto {
         font-size: 1.3rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-weight: 500;
-
+        font-weight: 700;
     }
 }
 
-.bi-download{
+.bi-download {
     margin-right: 1rem;
 }
 
-.outLineButton{
+.outLineButton {
     background-color: transparent;
     border: 2px solid var(--blanco);
-    &:hover{
+
+    &:hover {
         box-shadow: none;
         background-color: var(--blanco);
-        p {
+
+        .botonTexto {
             color: var(--negro);
         }
-        .bi-github{
+
+        .bi-github {
             fill: var(--negro);
         }
+
         transition: .2s ease-in-out;
     }
 }
 
 
 @media screen and (max-width: 1150px) {
-    .botonOriginal{
+    .botonOriginal {
         padding: .8rem;
-        p{
+
+        .botonTexto {
             font-size: 1rem;
         }
     }
 }
 
 @media screen and (max-width: 610px) {
-    .botonOriginal{
-        padding: .6rem;
-        p{
-            font-size: .9rem;
+    .botonOriginal {
+        padding: .5rem;
+
+        .botonTexto {
+            font-size: .8rem;
         }
     }
 
-    .bi-download{
+    .bi-download {
         margin-right: .5rem;
     }
 }
