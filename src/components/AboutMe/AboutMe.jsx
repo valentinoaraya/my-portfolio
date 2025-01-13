@@ -6,6 +6,7 @@ import cssSkill from "../../assets/images/skills/css-logo.webp"
 import jsSkill from "../../assets/images/skills/js-logo.webp"
 import reactSkill from "../../assets/images/skills/react-logo.webp"
 import nodejsSkill from "../../assets/images/skills/nodejs-logo.webp"
+import typescriptSkill from "../../assets/images/skills/typescript-logo.webp"
 import mongodbSkill from "../../assets/images/skills/mongodb-logo.webp"
 import firebaseSkill from "../../assets/images/skills/firebase-logo.webp"
 import gitSkill from "../../assets/images/skills/git-logo.webp"
@@ -34,6 +35,7 @@ const AboutMe = () => {
                                 <ImgSkills rutaImagen={reactSkill} />
                                 <ImgSkills rutaImagen={nodejsSkill} />
                                 <div className='skillsContainer puedeAparecer'>
+                                    <ImgSkills rutaImagen={typescriptSkill} />
                                     <ImgSkills rutaImagen={mongodbSkill} />
                                     <ImgSkills rutaImagen={firebaseSkill} />
                                     <ImgSkills rutaImagen={gitSkill} />
@@ -41,6 +43,7 @@ const AboutMe = () => {
                                 </div>
                             </div>
                             <div className='skillsContainer puedeDesaparecer'>
+                                <ImgSkills rutaImagen={typescriptSkill} />
                                 <ImgSkills rutaImagen={mongodbSkill} />
                                 <ImgSkills rutaImagen={firebaseSkill} />
                                 <ImgSkills rutaImagen={gitSkill} />
