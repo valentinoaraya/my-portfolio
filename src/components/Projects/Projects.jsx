@@ -39,7 +39,7 @@ const Projects = () => {
                                             Los usuarios pueden ver los turnos disponibles de los doctores y tomar uno.
                                             El administrador puede gestionar los doctores y los turnos.`
                         }
-                        web={"https://turnero.rcg.ar/d"}
+                        web={"https://turnero.rcg.ar/"}
                         tecnologias={"rct nd sql"}
                     />
                     <ProjectComponent
