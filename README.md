@@ -1,4 +1,4 @@
-# Valentino Araya - Portafolio Personal 💼
+# Valentino Araya - Portafolio Personal 💼 (Antiguo)
 
 Bienvenido a mi portafolio personal, donde presento mis proyectos, habilidades y experiencia como Front End Developer. Este portafolio está diseñado para mostrar mi trabajo de manera organizada y atractiva, utilizando las últimas tecnologías en desarrollo web.
 
