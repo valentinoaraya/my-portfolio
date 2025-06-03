@@ -24,31 +24,13 @@
 
 .principalTitle {
     font-size: 3rem;
-}
-
-.secundaryTitle {
-    margin: .5rem 0;
-    font-size: 2rem;
-    color: var(--rojo-claro);
-}
-
-.mainP {
-    margin: .5rem 0 1rem;
-    font-size: 1.5rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
 @media screen and (max-width:1150px) {
     .principalTitle {
         font-size: 2rem;
-    }
-
-    .secundaryTitle {
-        font-size: 1.5rem;
-    }
-
-    .mainP {
-        font-size: 1rem;
     }
 }
 
@@ -58,29 +40,11 @@
         align-items: center;
         margin-top: 5rem;
     }
-
-    .divInfoContainer {
-        width: 100%;
-        margin-bottom: 2rem;
-
-        .buttonContainer {
-            align-self: center;
-        }
-    }
-
 }
 
 @media screen and (max-width: 610px) {
     .principalTitle {
         font-size: 1.5rem;
-    }
-
-    .secundaryTitle {
-        font-size: 1.2rem;
-    }
-
-    .mainP {
-        font-size: .8rem;
     }
 }
 

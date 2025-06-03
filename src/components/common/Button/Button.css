@@ -20,30 +20,6 @@
     }
 }
 
-.bi-download {
-    margin-right: 1rem;
-}
-
-.outLineButton {
-    background-color: transparent;
-    border: 2px solid var(--blanco);
-
-    &:hover {
-        box-shadow: none;
-        background-color: var(--blanco);
-
-        .botonTexto {
-            color: var(--negro);
-        }
-
-        .bi-github {
-            fill: var(--negro);
-        }
-
-        transition: .2s ease-in-out;
-    }
-}
-
 
 @media screen and (max-width: 1150px) {
     .botonOriginal {
@@ -62,9 +38,5 @@
         .botonTexto {
             font-size: .8rem;
         }
-    }
-
-    .bi-download {
-        margin-right: .5rem;
     }
 }
